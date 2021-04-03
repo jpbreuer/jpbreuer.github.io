@@ -24,6 +24,7 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="./jpbreuer.github.io_files/animate.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" media="all" href="./Magnific-Popup/dist/magnific-popup.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./jpbreuer.github.io_files/aboutme.css" type="text/css">
@@ -34,6 +35,35 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+    <style>
+        /* for zoom animation 
+            uncomment this part if you haven't added this code anywhere else*/
+
+        .mfp-with-zoom .mfp-container,
+        .mfp-with-zoom.mfp-bg {
+            opacity: 0;
+            -webkit-backface-visibility: hidden;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .mfp-with-zoom.mfp-ready .mfp-container {
+            opacity: 1;
+        }
+
+        .mfp-with-zoom.mfp-ready.mfp-bg {
+            opacity: 0.8;
+        }
+
+        .mfp-with-zoom.mfp-removing .mfp-container,
+        .mfp-with-zoom.mfp-removing.mfp-bg {
+            opacity: 0;
+        }
+
+        */
+    </style>
 
 </head>
 
@@ -111,41 +141,43 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Hobbies</h2>
                     <hr class="primary text-left">
-                    <p> </p>
+                    <p> I like to swim, sail, and dive; train with the 15th century longsword, judo, and jiu jitsu; dance zouk and ballet.<br>
+                        From time to time I compete in chess, table foosball, and long distance shooting tournaments.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>List of current species at home:<br>
-                        Spiders:
-                        Heteroscodra maculata
-                        Pterinochilus murinus
-                        Cyriopagopus sp. Hati Hati
-                        Poecilotheria metalica
-                        Poecilotheria regalis
-                        Harpactira pulchripes
-                        Omothymus violaceopes (ex. Lampropelma)
-                        Idiothele mira
-                        Acanthascurria geniculata
-                        Chromatopelma cyaneopubescens
-                        Pseudhapalopus sp. Colombia
-                        Hapalopus sp. Colombia
-                        Tlitocatl abopilosus (ex. Brachypelma)
-                        Caribena versicolor (ex. Avicularia)
-                        Psalmapoeus cambridgei
-                        Psalmapoeus irminia
-                        Lasiodora parahybana
-                        Lasiodora klugi
-                        Pterinopelma sazimai
-
-                        Insects:
-                        Dynastes Hercules Lichyi
-                        Dynastes Hercules Hercules
-
-                        Other:
-                        Physarum polycephalum
-
+                    <p>Entomological list of current species at home:<br>
+                        <div class="col-lg-6 text-center">
+                            <b>Spiders:</b><br>
+                            Heteroscodra maculata<br>
+                            Pterinochilus murinus<br>
+                            Cyriopagopus sp. Hati Hati<br>
+                            Poecilotheria metalica<br>
+                            Poecilotheria regalis<br>
+                            Harpactira pulchripes<br>
+                            Omothymus violaceopes (ex. Lampropelma)<br>
+                            Idiothele mira<br>
+                            Acanthascurria geniculata<br>
+                            Chromatopelma cyaneopubescens<br>
+                            Pseudhapalopus sp. Colombia<br>
+                            Hapalopus sp. Colombia<br>
+                            Tlitocatl abopilosus (ex. Brachypelma)<br>
+                            Caribena versicolor (ex. Avicularia)<br>
+                            Psalmapoeus cambridgei<br>
+                            Psalmapoeus irminia<br>
+                            Lasiodora parahybana<br>
+                            Lasiodora klugi<br>
+                            Pterinopelma sazimai<br>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <b>Insects:</b><br>
+                            Dynastes Hercules Lichyi<br>
+                            Dynastes Hercules Hercules<br><br>
+                            <b>Other:</b><br>
+                            Physarum polycephalum<br>
                     </p>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -155,7 +187,130 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Photography</h2>
                     <hr class="dark text-left">
-                    <p> </p>
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/afri1.jpg"><img src="./jpbreuer.github.io_files/photos/afri1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri2.jpg"><img src="./jpbreuer.github.io_files/photos/afri2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri3.jpg"><img src="./jpbreuer.github.io_files/photos/afri3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri4.jpg"><img src="./jpbreuer.github.io_files/photos/afri4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri5.jpg"><img src="./jpbreuer.github.io_files/photos/afri5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri6.jpg"></a><img src="./jpbreuer.github.io_files/photos/afri6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri7.jpg"><img src="./jpbreuer.github.io_files/photos/afri7.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri8.jpg"><img src="./jpbreuer.github.io_files/photos/afri8.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri9.jpg"><img src="./jpbreuer.github.io_files/photos/afri9.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri10.jpg"><img src="./jpbreuer.github.io_files/photos/afri10.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/afri11.jpg"><img src="./jpbreuer.github.io_files/photos/afri11.jpg" width="75" height="75"></a>
+
+                    </div>
+                    <!--p>Africa</p-->
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/chern1.jpg"><img src="./jpbreuer.github.io_files/photos/chern1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern2.jpg"><img src="./jpbreuer.github.io_files/photos/chern2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern3.jpg"><img src="./jpbreuer.github.io_files/photos/chern3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern4.jpg"><img src="./jpbreuer.github.io_files/photos/chern4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern5.jpg"><img src="./jpbreuer.github.io_files/photos/chern5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern6.jpg"><img src="./jpbreuer.github.io_files/photos/chern6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern7.jpg"><img src="./jpbreuer.github.io_files/photos/chern7.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern8.jpg"><img src="./jpbreuer.github.io_files/photos/chern8.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern9.jpg"><img src="./jpbreuer.github.io_files/photos/chern9.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern10.jpg"><img src="./jpbreuer.github.io_files/photos/chern10.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern11.jpg"><img src="./jpbreuer.github.io_files/photos/chern11.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chern12.jpg"><img src="./jpbreuer.github.io_files/photos/chern12.jpg" width="75" height="75"></a>
+                    </div>
+                    <!--p>Chernobyl</p-->
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/chile1.jpg"><img src="./jpbreuer.github.io_files/photos/chile1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile2.jpg"><img src="./jpbreuer.github.io_files/photos/chile2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile3.jpg"><img src="./jpbreuer.github.io_files/photos/chile3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile4.jpg"><img src="./jpbreuer.github.io_files/photos/chile4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile5.jpg"><img src="./jpbreuer.github.io_files/photos/chile5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile6.jpg"><img src="./jpbreuer.github.io_files/photos/chile6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile7.jpg"><img src="./jpbreuer.github.io_files/photos/chile7.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/apex1.jpg"><img src="./jpbreuer.github.io_files/photos/apex1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/apex2.jpg"><img src="./jpbreuer.github.io_files/photos/apex2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile8.jpg"><img src="./jpbreuer.github.io_files/photos/chile8.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/chile9.jpg"><img src="./jpbreuer.github.io_files/photos/chile9.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/alma1.jpg"><img src="./jpbreuer.github.io_files/photos/alma1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/alma2.jpg"><img src="./jpbreuer.github.io_files/photos/alma2.jpg" width="75" height="75"></a>
+                    </div>
+                    <!--p>Chile</p-->
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/svalbard1.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard2.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard3.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard4.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard5.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard6.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard7.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard7.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard8.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard8.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard9.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard9.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard10.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard10.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard11.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard11.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard12.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard12.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard13.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard13.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard14.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard14.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard15.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard15.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/mine1.jpeg"><img src="./jpbreuer.github.io_files/photos/mine1.jpeg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/mine2.jpeg"><img src="./jpbreuer.github.io_files/photos/mine2.jpeg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/mine3.jpeg"><img src="./jpbreuer.github.io_files/photos/mine3.jpeg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/mine4.jpg"><img src="./jpbreuer.github.io_files/photos/mine4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/mine5.jpg"><img src="./jpbreuer.github.io_files/photos/mine5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard16.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard16.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard17.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard17.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard18.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard18.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard19.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard19.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard20.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard20.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard21.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard21.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/svalbard22.jpg"><img src="./jpbreuer.github.io_files/photos/svalbard22.jpg" width="75" height="75"></a>
+                    </div>
+                    <!--p>Svalbard</p-->
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/krivan1.jpeg"><img src="./jpbreuer.github.io_files/photos/krivan1.jpeg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/krivan2.jpeg"><img src="./jpbreuer.github.io_files/photos/krivan2.jpeg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan1.jpg"><img src="./jpbreuer.github.io_files/photos/japan1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan2.jpg"><img src="./jpbreuer.github.io_files/photos/japan2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan3.jpg"><img src="./jpbreuer.github.io_files/photos/japan3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan4.jpg"><img src="./jpbreuer.github.io_files/photos/japan4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan5.jpg"><img src="./jpbreuer.github.io_files/photos/japan5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan6.jpg"><img src="./jpbreuer.github.io_files/photos/japan6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/japan7.jpg"><img src="./jpbreuer.github.io_files/photos/japan7.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/iram_sunset1.jpg"><img src="./jpbreuer.github.io_files/photos/iram_sunset1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/iram_sunset2.jpg"><img src="./jpbreuer.github.io_files/photos/iram_sunset2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/iram_moon1.jpg"><img src="./jpbreuer.github.io_files/photos/iram_moon1.jpg" width="75" height="75"></a>
+                    </div>
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/boat1.jpg"><img src="./jpbreuer.github.io_files/photos/boat1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/boat2.jpg"><img src="./jpbreuer.github.io_files/photos/boat2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/boat3.jpg"><img src="./jpbreuer.github.io_files/photos/boat3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/boat4.jpg"><img src="./jpbreuer.github.io_files/photos/boat4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/boat5.jpg"><img src="./jpbreuer.github.io_files/photos/boat5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/boat6.jpg"><img src="./jpbreuer.github.io_files/photos/boat6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/boat7.jpg"><img src="./jpbreuer.github.io_files/photos/boat7.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/amazon1.jpg"><img src="./jpbreuer.github.io_files/photos/amazon1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/amazon2.jpg"><img src="./jpbreuer.github.io_files/photos/amazon2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/amazon3.jpg"><img src="./jpbreuer.github.io_files/photos/amazon3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/amazon4.jpg"><img src="./jpbreuer.github.io_files/photos/amazon4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/amazon5.jpg"><img src="./jpbreuer.github.io_files/photos/amazon5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/amazon6.jpg"><img src="./jpbreuer.github.io_files/photos/amazon6.jpg" width="75" height="75"></a>
+                    </div>
+                    <div class="popup-gallery">
+                        <a href="./jpbreuer.github.io_files/photos/clean1.jpg"><img src="./jpbreuer.github.io_files/photos/clean1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/clean2.jpg"><img src="./jpbreuer.github.io_files/photos/clean2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/goddard1.jpg"><img src="./jpbreuer.github.io_files/photos/goddard1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/goddard2.jpg"><img src="./jpbreuer.github.io_files/photos/goddard2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/goddard3.jpg"><img src="./jpbreuer.github.io_files/photos/goddard3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/seattle1.jpg"><img src="./jpbreuer.github.io_files/photos/seattle1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/seattle2.jpg"><img src="./jpbreuer.github.io_files/photos/seattle2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/seattle3.jpg"><img src="./jpbreuer.github.io_files/photos/seattle3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/home1.jpg"><img src="./jpbreuer.github.io_files/photos/home1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/home2.jpg"><img src="./jpbreuer.github.io_files/photos/home2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/home3.jpg"><img src="./jpbreuer.github.io_files/photos/home3.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/home4.jpg"><img src="./jpbreuer.github.io_files/photos/home4.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/home5.jpg"><img src="./jpbreuer.github.io_files/photos/home5.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/home6.jpg"><img src="./jpbreuer.github.io_files/photos/home6.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/ento1.jpg"><img src="./jpbreuer.github.io_files/photos/ento1.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/ento2.jpg"><img src="./jpbreuer.github.io_files/photos/ento2.jpg" width="75" height="75"></a>
+                        <a href="./jpbreuer.github.io_files/photos/ento3.jpg"><img src="./jpbreuer.github.io_files/photos/ento3.jpg" width="75" height="75"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -211,9 +366,34 @@
     <script src="./jpbreuer.github.io_files/jquery.fittext.js"></script>
     <script src="./jpbreuer.github.io_files/wow.min.js"></script>
 
+    <!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
+    <script type="text/javascript" src="./Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
     <!-- Custom Theme JavaScript -->
     <script src="./jpbreuer.github.io_files/creative.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image ...',
+                mainClass: 'mfp-img-mobile mfp-with-zoom',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    verticalFit: true
+                },
+                zoom: {
+                    enabled: true,
+                    duration: 300 // don't foget to change the duration also in CSS
+                }
+            });
+        });
+    </script>
 
 
 </body>

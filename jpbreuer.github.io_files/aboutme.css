@@ -53,6 +53,10 @@ p {
     background-color: #085363
 }
 
+.bg-secondary {
+    background-color: #d1d1d1;
+}
+
 .bg-dark {
     background-color: #24282d;
     color: white
@@ -179,7 +183,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../jpbreuer.github.io_files/svalbard3.jpg");
+    background-image: url("../jpbreuer.github.io_files/photos/svalbard3.jpg");
     text-align: center;
     color: white
 }
